@@ -14,7 +14,7 @@ class FileIOTest < Minitest::Test
 
     file= FileIO.new("message.txt","encrypted.txt")
     file.read_message_dec
-    assert_equal "abcdabcdabcdabcd..end..", file.read_message_dec
+    assert_equal "is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industrys standard dummy text ever since the 1500s, when ...end...", file.read_message_dec
 
   end
 

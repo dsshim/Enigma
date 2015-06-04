@@ -47,7 +47,7 @@ dec.d_rotation
 decrypted = dec.decrypt
 code.write_message_dec(decrypted)
 
-crack = Crack.new("vaatle9d7w olz4o8zag,wlj596.lx0,1206", offsets)
+crack = Crack.new("y1szyv sbgy12vge9nf0nx0e9qze503u9r8nnj8kn2gwu1z09r8nnr8k 1bybhss40ztnr z vsoq1siun8e9qzeywy182,58ga0qwyh7msk v75n2z49gz2u0szywxln22ln n7d1ue,qzunhtfuwyfoh", offsets)
 crack.char_map
 crack.crack_key_array
 crack.crack_key_gen

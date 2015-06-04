@@ -34,13 +34,11 @@ class FileIO
   def read_message
     read =File.open(@text, "r")
     read.read
-    #@read.close
   end
 
   def read_message_enc
     read_enc = File.open(@encrypted, "r")
     read_enc.read
-    #@read_enc.close
   end
 
   def read_message_dec
