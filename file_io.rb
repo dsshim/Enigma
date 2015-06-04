@@ -4,7 +4,7 @@ require "pry"
 
 class FileIO
 
-  def initialize(text = "message.txt", encrypted = "encrypted.txt")
+  def initialize(text="message.txt", encrypted="encrypted.txt")
     @text = text
     @encrypted = encrypted
     @decrypted = "decrypt.txt"

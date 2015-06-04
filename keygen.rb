@@ -18,9 +18,5 @@ class KeyGen
     @offset = sq_num.to_s.reverse.slice!(0..3).reverse.to_s.each_char.map(&:to_i)
   end
 
-  # def time
-  #  key=KeyGen.new(@curr_time)
-  #    key.offsets
-  #  end
 end
 
